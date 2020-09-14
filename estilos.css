@@ -1,0 +1,38 @@
+body {
+    background-color: #222532;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10% auto;
+    width: 50%;
+    
+}
+
+@media only screen and (min-width: 992px) {
+    .contenedor {
+        width: 30%;
+    }
+}
+
+input {
+    width: 100%;
+    height: 25px;
+}
+
+.etiquetaUsuario, .etiquetaContrasena {
+    margin-bottom: 5px;
+    margin-top: 20px;
+    align-self: flex-start;
+}
+
+#submit {
+    margin-top: 25px;
+    padding: 5px 15px;
+}
